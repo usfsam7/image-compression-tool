@@ -1,0 +1,25 @@
+{
+  "name": "compress-images",
+  "version": "1.0.0",
+  "description": "compress images service",
+  "main": "app.js",
+  "scripts": {
+    "app": "nodemon app.js"
+  },
+  "author": "joe sam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "imagemin": "^9.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-svgo": "^11.0.0",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
