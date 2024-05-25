@@ -16,7 +16,7 @@ const multer = require('multer')
     if (file.mimetype === 'image/png' || file.mimetype === 'image/jpeg' || file.mimetype === 'image/jpg') {
       cb(null, true)
     } else {
-     cb(new Error("the file must be an Image, (png or jpg)"), false);
+     cb(new Error("the file must be an Image"), false);
     }
   }
 
