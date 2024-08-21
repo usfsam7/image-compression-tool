@@ -63,7 +63,7 @@ const compress = async (req, res) => { uploading(req, res, async (err) => {
           res.json({
             msg: "Image compressed successfully.",
             original_size: req.file.size,
-            compressed_size: fs.statSync(compressedImagePath).size,
+            compressed_image_size: fs.statSync(compressedImagePath).size,
             compressed_image_path: compressedImagePath
           });
         } else {
