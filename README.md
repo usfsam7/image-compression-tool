@@ -15,13 +15,21 @@ Before you can use this application, ensure you have the following:
 
    ```bash
    git clone https://github.com/usfsam7/image-compression-tool.git
+   ```
 2. Navigate to the project directory:
 
    ```bash
-  cd image-compression-tool
+   cd image-compression-tool
+   ```
   
 3. Install the dependencies:
 
   ```bash
  npm install
+```
+4. Run the project:
+   ```bash
+    npm start
+   ```
+
 
