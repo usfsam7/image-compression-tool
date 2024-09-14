@@ -24,9 +24,9 @@ Before you can use this application, ensure you have the following:
   
 3. Install the dependencies:
 
-  ```bash
-  npm install
-  ```
+   ```bash
+   npm install
+   ```
 4. Run the project:
    ```bash
    npm start
@@ -37,3 +37,7 @@ Before you can use this application, ensure you have the following:
 - Click the compress button to process the image.
 - save the compressed image.
 
+##Features
+- Supports various image formats (e.g., JPEG, PNG).
+- Adjustable compression settings to balance between quality and file size.
+- User-friendly interface for easy image upload and download.
