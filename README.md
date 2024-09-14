@@ -25,11 +25,15 @@ Before you can use this application, ensure you have the following:
 3. Install the dependencies:
 
   ```bash
- npm install
-```
+  npm install
+  ```
 4. Run the project:
    ```bash
-    npm start
+   npm start
    ```
-
+## Usage
+- Upload an image file through the provided interface.
+- Adjust the compression settings (e.g., quality, format) if applicable.
+- Click the compress button to process the image.
+- save the compressed image.
 
