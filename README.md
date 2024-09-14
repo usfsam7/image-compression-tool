@@ -9,6 +9,12 @@ Before you can use this application, ensure you have the following:
 - Node.js (v14 or higher)
 - npm (Node Package Manager)
 
+## Technologies Used
+
+- **Multer**: Middleware for handling `multipart/form-data`, used for uploading images.
+- **Imagemin**: Image compression library for optimizing image file sizes.
+- **MVC Architecture**: Model-View-Controller architecture for organizing the application’s code.
+
 ## Installation
 
 1. Clone the repository:
